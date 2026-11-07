@@ -1,0 +1,66 @@
+
+/* Theme button */
+.theme-toggle {
+  margin: 10px;
+  white-space: nowrap;
+}
+
+/* Dark mode */
+body.foodie-dark {
+  background-color: #151515 !important;
+  color: #f5f5f5 !important;
+}
+
+.foodie-dark .site-header,
+.foodie-dark .site-footer {
+  background-color: #202020 !important;
+  color: #ffffff !important;
+}
+
+.foodie-dark .site-header a,
+.foodie-dark .site-footer a {
+  color: #ffffff !important;
+}
+
+.foodie-dark .section,
+.foodie-dark section,
+.foodie-dark .bg-white,
+.foodie-dark .container {
+  color: #f5f5f5;
+}
+
+.foodie-dark .bg-white,
+.foodie-dark .card,
+.foodie-dark .cart-item {
+  background-color: #242424 !important;
+  color: #f5f5f5 !important;
+}
+
+.foodie-dark .form-control,
+.foodie-dark .form-select,
+.foodie-dark textarea {
+  background-color: #303030 !important;
+  color: #ffffff !important;
+  border-color: #666666 !important;
+}
+
+.foodie-dark .form-control::placeholder {
+  color: #bbbbbb !important;
+}
+
+.foodie-dark .table {
+  --bs-table-bg: #242424;
+  --bs-table-color: #ffffff;
+  --bs-table-striped-bg: #303030;
+  --bs-table-striped-color: #ffffff;
+}
+
+.foodie-dark .subtitle,
+.foodie-dark p,
+.foodie-dark h1,
+.foodie-dark h2,
+.foodie-dark h3,
+.foodie-dark h4,
+.foodie-dark label {
+  color: inherit;
+}
